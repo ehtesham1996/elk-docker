@@ -1,0 +1,10 @@
+path.data: /var/lib/elasticsearch
+path.logs: /var/log/elasticsearch
+cluster.name: "docker-cluster"
+network.host: 0.0.0.0
+http.port: 9200
+xpack.license.self_generated.type: trial
+#xpack.security.enabled: true
+xpack.monitoring.collection.enabled: true
+discovery.type: single-node
+
